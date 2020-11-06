@@ -1,0 +1,26 @@
+{
+  "name": "clean-node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "lint-staged": {
+    "*.js" : ["standard"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukyo17/clean-node-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukyo17/clean-node-api/issues"
+  },
+  "homepage": "https://github.com/lukyo17/clean-node-api#readme",
+  "devDependencies": {
+    "lint-staged": "^10.5.1",
+    "standart": "^6.1.0"
+  }
+}
