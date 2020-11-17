@@ -13,6 +13,7 @@
       "jest"
     ]
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lukyo17/clean-node-api.git"
