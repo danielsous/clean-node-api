@@ -11,6 +11,10 @@
     "test:staged": "jest --passWithNoTests --silent --noStackTrace",
     "test:ci": "jest --noStackTrace"
   },
+  "husky": {
+    "pre-commit": "npm run hooks:pre-commit",
+    "pre-push": "npm run hooks:pre-push"
+  },
   "standard": {
     "env": [
       "jest"
