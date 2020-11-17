@@ -1,0 +1,3 @@
+function testes () {
+  return {}
+}
