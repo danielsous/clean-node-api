@@ -7,7 +7,8 @@
   "scripts": {
     "test": "jest --watchAll --silent --noStackTrace",
     "test:staged": "jest --passWithNoTests --silent --noStackTrace",
-    "test:ci": "jest --noStackTrace"
+    "test:ci": "jest --noStackTrace",
+    "postinstall": "husky install"
   },
   "standard": {
     "env": [
