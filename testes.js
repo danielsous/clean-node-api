@@ -1,3 +1,5 @@
 function testes () {
-  return { abc }
+  return 'teste'
 }
+
+module.exports = testes
