@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": "false",
   "scripts": {
     "test": "jest --watchAll --silent --noStackTrace",
     "test:staged": "jest --passWithNoTests --silent --noStackTrace",
@@ -13,7 +14,6 @@
       "jest"
     ]
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lukyo17/clean-node-api.git"
