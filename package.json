@@ -5,6 +5,8 @@
   "main": "index.js",
   "private": false,
   "scripts": {
+    "hooks:pre-commit": "node ./hooks/pre-commit.js",
+    "hooks:pre-push": "node ./hooks/pre-push.js",
     "test": "jest --watchAll --silent --noStackTrace",
     "test:staged": "jest --passWithNoTests --silent --noStackTrace",
     "test:ci": "jest --noStackTrace"
