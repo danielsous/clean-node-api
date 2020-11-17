@@ -34,7 +34,7 @@
   "dependencies": {},
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "echo oooooiiii"
     }
   },
   "lint-staged": {

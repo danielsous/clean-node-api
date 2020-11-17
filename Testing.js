@@ -1,2 +1,3 @@
-a
-b
+function test () {
+  return {}
+}
