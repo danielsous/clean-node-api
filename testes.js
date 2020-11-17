@@ -1,3 +1,3 @@
 function testes () {
-  return {}
+  return { abc }
 }
