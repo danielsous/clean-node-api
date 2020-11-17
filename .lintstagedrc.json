@@ -1,6 +1,6 @@
 {
     "*.js": [
-      "eslint --fix",
+      "standard --fix",
       "npm run test:staged",
       "git add"
     ]
