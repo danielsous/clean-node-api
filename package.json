@@ -9,19 +9,6 @@
     "test:staged": "jest --passWithNoTests --silent --noStackTrace",
     "test:ci": "jest --noStackTrace"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run test:ci"
-    }
-  },
-  "lint-staged": {
-    "*.js": [
-      "standard --fix",
-      "npm run test:staged",
-      "git add"
-    ]
-  },
   "standard": {
     "env": [
       "jest"
